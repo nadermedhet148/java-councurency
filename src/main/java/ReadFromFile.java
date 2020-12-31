@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ReadFromFile {
     public static class FileReader extends Thread {
 
-        private final File file;
+        final File file;
         private List<String> lines = new ArrayList<String>();
 
         public FileReader(File file) {
